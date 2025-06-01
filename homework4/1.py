@@ -77,7 +77,6 @@ for epoch in range(3000):
     if epoch % 500 == 0:
         print(f"Epoch {epoch}, Loss = {loss(W, b):.6f}")
 
-# ==== 5. 輸出結果 ====
 output = forward(W, b)
 print("\n=== 預測結果（四捨五入） ===")
 print(np.round(output))

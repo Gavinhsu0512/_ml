@@ -42,7 +42,6 @@ for epoch in range(epochs):
 print("\n✅ 訓練完成")
 print(f"學到的模型：y = {w.item():.4f} * x + {b.item():.4f}")
 
-# 畫圖
 plt.scatter(X.numpy(), Y.numpy(), label='data')
 plt.plot(X.numpy(), y_pred.detach().numpy(), color='red', label='fit')
 plt.legend()

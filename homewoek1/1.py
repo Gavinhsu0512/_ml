@@ -5,7 +5,7 @@ def hillClimbing(x, height, neighbor, max_fail=10000):
     fail = 0
     while True:
         nx = neighbor(x)  # 取得鄰近解
-        if height(nx) > height(x):  # 如果更好就移動
+        if height(nx) > height(x):  
             x = nx
             fail = 0
         else:

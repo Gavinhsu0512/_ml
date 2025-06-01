@@ -21,4 +21,4 @@ f2 = sp.sin(x) + y**2
 grad_f2_x = sp.diff(f2, x)
 grad_f2_y = sp.diff(f2, y)
 print("\n題二：f(x, y) = sin(x) + y^2")
-print("梯度 ∇f =", [grad_f2_x, grad_f2_y])  # [cos(x), 2y]
+print("梯度 ∇f =", [grad_f2_x, grad_f2_y])  

@@ -30,7 +30,6 @@ for step in range(max_iter):
     # 印出進度
     if step % 10 == 0 or step == max_iter - 1:
         print(f"step {step:03d} | f = {f.data:.6f} | x = {x.data:.4f}, y = {y.data:.4f}, z = {z.data:.4f}")
-
-# 最終結果
+        
 print("\n✅ 最小值結果：")
 print(f"x = {x.data:.4f}, y = {y.data:.4f}, z = {z.data:.4f}, f(x,y,z) = {f.data:.6f}")

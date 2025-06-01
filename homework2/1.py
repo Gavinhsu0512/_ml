@@ -47,7 +47,7 @@ random.shuffle(init_path)
 # 執行爬山法
 best_path = hillClimbing(init_path, cities)
 
-# 結果顯示
+
 print("最佳路徑順序:", best_path)
 print("最短距離:", total_distance(best_path, cities))
 

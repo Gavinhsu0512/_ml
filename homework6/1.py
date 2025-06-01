@@ -11,7 +11,6 @@ class Value:
     def __repr__(self):
         return f"Value(data={self.data:.4f}, grad={self.grad:.4f})"
 
-    # === 運算符重載 ===
     def __add__(self, other):
         other = other if isinstance(other, Value) else Value(other)
         out = Value(self.data + other.data, (self, other), '+')

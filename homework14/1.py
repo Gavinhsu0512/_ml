@@ -11,7 +11,6 @@ for _ in range(1000):
 
     cart_pos, cart_vel, pole_angle, pole_vel = observation
 
-    # 🧠 固定策略：根據角度與角速度控制方向
     action = 1 if pole_angle + 0.5 * pole_vel > 0 else 0
 
     observation, reward, terminated, truncated, info = env.step(action)
@@ -29,7 +28,6 @@ for _ in range(1000):
 
 env.close()
 
-# 最後統計
 print("\n✅ 撐的步數總結：")
 for i, steps in enumerate(steps_per_episode):
     print(f"第 {i+1} 回合：{steps} 步")

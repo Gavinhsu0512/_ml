@@ -31,6 +31,5 @@ for step in range(max_iter):
     if step % 10 == 0 or step == max_iter - 1:
         print(f"Step {step:03d} | f = {f.item():.6f} | x = {x.item():.4f}, y = {y.item():.4f}, z = {z.item():.4f}")
 
-# 最終輸出
 print("\n✅ 最小值結果：")
 print(f"x = {x.item():.4f}, y = {y.item():.4f}, z = {z.item():.4f}, f(x, y, z) = {f.item():.6f}")
