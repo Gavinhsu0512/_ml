@@ -1,0 +1,1 @@
+訓練資料 X 與 Y 是參考 ChatGpt 工具生成模擬的 y = 2x + 3 + noise
