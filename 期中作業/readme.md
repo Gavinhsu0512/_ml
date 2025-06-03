@@ -44,3 +44,11 @@ pip install torch torchvision
 → Softmax (隱含於 CrossEntropyLoss)
 ```
 
+---
+
+##  協助說明
+
+- 部分程式由 ChatGpt 協助生成
+- 所有程式碼皆由理解後實作與修改
+---
+
