@@ -7,6 +7,9 @@
 
 ---
 
+##  環境需求與安裝
 
 ##  安裝 Ollama（需本機支援）
+
+```bash
 ollama run llama3:8b
