@@ -1,4 +1,4 @@
-#  專案簡介
+#  簡介
 
 -  使用 PyTorch 框架
 -  使用 CNN 模型結構（兩層卷積 + ReLU + MaxPool）
