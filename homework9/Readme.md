@@ -1,4 +1,4 @@
-#📊 線性回歸模型（Linear Regression with PyTorch）
+# 線性回歸模型（Linear Regression with PyTorch）
 
 本專案使用 PyTorch 搭配人為產生的數據，實作簡單的一維線性回歸模型。  
 訓練目標是逼近真實關係： `y = 2x + 3`（加入一點隨機雜訊），並使用梯度下降法找出參數 `w` 與 `b`。
