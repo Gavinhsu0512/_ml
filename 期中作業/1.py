@@ -38,5 +38,3 @@ for epoch in range(3):
         optimizer.step()
         total_loss += loss.item()
     print(f"Epoch {epoch+1}, Loss: {total_loss:.4f}")
-
-print("\n 訓練完成：模型可預測 0~9 手寫數字")

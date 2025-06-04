@@ -1,4 +1,10 @@
-#  簡介
+# 📽 成果展示影片
+
+[點我觀看影片](https://drive.google.com/file/d/1S4FYQxaCSTDES9KBDZTPX_pRqpZ9Z3fZ/view?usp=sharing)
+
+
+
+##  簡介
 
 -  使用 PyTorch 框架
 -  使用 CNN 模型結構（兩層卷積 + ReLU + MaxPool）
